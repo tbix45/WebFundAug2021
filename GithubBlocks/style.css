@@ -1,0 +1,42 @@
+h1{ text-align: center;
+    color: black;
+    font-family: fantasy;
+}
+p, a{
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.row1{
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+}
+.row2{
+    background-color: pink;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px;
+}
+.row3{
+    background-color: rgba(255, 255, 255, 0.623);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px;
+}
+.octocat {
+    height: 200px;
+}
+div, .row1{
+    height: 250px;
+}
+.footer{
+    text-align: center;
+}
+/* new commit*/

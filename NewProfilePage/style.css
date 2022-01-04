@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.navbar{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 75px;
+}
+.company{
+    font-size: 30px;
+    margin-right: 50px;
+}
+.navbar-left{
+    margin: 0px 
+}
+.navbar-left{
+    width: 550px;
+    margin-left: 200px;
+    display: flex;
+    align-items: center;
+}
+.navbar-left a{
+    text-decoration: none;
+    color: white;
+    width: 200px;
+    display: flex;
+    justify-content: space-between
+}
+.peaceout{
+    margin-right: 200px;
+    color: white;
+    background-color: #48a3b8;
+    font-size: larger;
+    padding: 2px 5px;
+}
+
+.wrapper{
+    margin: 20px 200px;
+    /* background-color: red; */
+    height: 800px;
+    display: flex;
+    column-gap: 50px;
+
+}
+.leftside{
+    /* background-color: green; */
+    height: 300px;
+    flex: 2;
+}
+.userprofilecard{
+    height: 300px;
+    border: 2px solid black;
+    margin-bottom: 30px;
+}
+.banner{
+    background-color: #48a3b8;
+    height: 100px;
+}
+.profilephoto{
+    height: 75px;
+    position: relative;
+    top: 60px;
+    left: 30px;
+}
+.profilecontent{
+    position: relative;
+    top: 40px;
+    left: 30px;
+}
+.map-marker{
+    height: 25px;
+    margin-right: 10px;
+}
+img + h2{
+    display: inline-block;
+    font-size: 20px;
+}
+.settingbar{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.skills{
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+.gear{
+    height: 25px;
+    margin-right: 10px;
+}
+.educationcard{
+    height: 300px;
+    border: 2px solid black;
+}
+.edbanner{
+    height: 50px;
+    background-color: black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.edbanner h2{
+    color: white;
+    font-size: 20px;
+    margin-left: 30px;
+}
+img{
+    border-radius: 50%;
+}
+.edcardcontent{
+    position: relative;
+    left: 30px;
+    top: 10px;
+}
+.edcardcontent > h2{
+    margin-bottom: 10px;
+}
+.edcardcontent > h2 + p{
+    color: gray;
+    margin-bottom: 10px;
+}
+.rightside{
+    /* background-color: blue; */
+    height: 300px;
+    flex: 1;
+}
+.requests{
+    height: auto;
+    border: 2px solid black;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+
+}
+.requestbanner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background-color: black;
+}
+.requestbanner>p{
+    background-color: gray;
+    border-radius: 50%;
+    font-size: x-large;
+    width: 25px;
+    text-align: center;
+    margin-right: 10px;
+}
+.requestbanner>h2{
+    color: white;
+}
+/* .connectbanner{
+    background-color: red;
+    height: 60px;
+} */
+
+.yourconnections{
+    height: auto;
+    border: 2px solid black;
+}
+
+.connectbanner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background-color: black;
+}
+.connectbanner>p{
+    background-color: gray;
+    border-radius: 30px;
+    font-size: x-large;
+    width: 70px;
+    text-align: center;
+    margin-right: 10px;
+}
+.connectbanner>h2{
+    color: white;
+}
+.connection1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5px;
+}
+.connection1 > img{
+    height: 40px;
+}
+.connection1 > img + p{
+    font-size: 25px;
+}
+.controls > img{
+    height: 40px;
+}
+
+/* individual connections */
+.pastconnection{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 5px;
+    padding-left: 20px;
+
+}
+.pastconnection > img{
+    height: 40px;
+}
+.pastconnection > img + p{
+    font-size: 25px;
+    padding-left: 30px;
+}
+.more{
+    font-size: 20px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 2px solid black;
+}

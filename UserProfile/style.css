@@ -1,0 +1,140 @@
+/* USER CARD */
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+.top-banner{
+    background-color: #48a3b8;
+    height: 75px;
+    border-radius: inherit;
+}
+.profile-photo{
+    height: 75px;
+    position: relative;
+    top: 37px;
+    left: 20px;
+}
+img.map-marker{
+    height: 20px;
+    display: flex;
+}
+.location{
+    display: flex;
+}
+.card-content{
+    position: relative;
+    left: 20px;
+    top: 30px;
+}
+.wrapper{
+    position: absolute;
+    left: 250px;
+    top: 100px;
+    width: 500px;
+    /* margin: 40px 400px; */
+    height: 275px;
+    border: 3px solid rgb(172, 168, 168);
+    border-radius: 2px;
+}
+h1{
+    margin: 5px 0px;
+}
+.locations{
+    display: flex;
+}
+.edit-profile{
+    position: relative;
+    display: flex;
+    top: 25px;
+    left: 20px;
+}
+.settings{
+    height: 25px;
+    margin-right: 5px;
+}
+img + p{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.titles{
+    margin-bottom: 15px;
+}
+.education-card h4{
+    background-color: gray; 
+    height: 50px;
+}
+.edcard-content{
+    position: relative;
+    left: 20px;
+    
+}
+.education-card{
+    position: absolute;
+    left: 250px;
+    top: 425px;
+    width: 500px;
+    /* margin: 40px 400px; */
+    height: 275px;
+    border: 3px solid rgb(172, 168, 168);
+    border-radius: 2px;
+}
+
+
+/* RIGHT SIDE */
+.rightside-content{
+
+}
+.connectionrequests{
+
+}
+.rightside-content h4{
+    display: inline;
+}
+.requestsnumb{
+    background-color: gray;
+    border-radius: 50%;
+    padding: 7px;
+}
+
+
+/* NAVBAR CODE */
+*{
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+.nav{
+    background-color: gray;
+    /* color: white; */
+    display: flex;
+    justify-content: space-between;
+    padding: 1px 25px;
+
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    opacity: 0.75;
+    
+}
+.active{
+    opacity: 0.75;
+}
+.active:hover {
+    opacity: 1;
+}
+a{
+    /* color: white; */
+    text-decoration: none;
+}
+.btn{
+    background-color: #48a3b8;
+    box-shadow: 2px 2px black;
+    width: 100px;
+    height: 30px;
+
+
+}

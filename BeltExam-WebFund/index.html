@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belt Exam</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="navbar">
+            <img class="logo" src="images2/assets/leaf.png" alt="logo">
+            <h1>EasyBay</h1>
+            <input type="text" name="searchbar" id="searchbar" placeholder="Search for anything">
+            <button class="signin">Sign In</button>
+            <img src="images2/assets/cart-dark.png" alt="#" class="cart" onclick="alert('Your cart is empty')">
+        </div>
+        <div class="titlesection">
+            <a href="Aeonium">Aeonium</a>
+            <a href="Andormischus">Andormischus</a>
+            <a href="Agave">Agave</a>
+            <a href="Aloe">Aloe</a>
+            <a href="Anacampseros">Anacampseros</a>
+            <a href="Aristaloe">Aristaloe</a>
+            <a href="More...">More...</a>
+        </div>
+        <h1 class="bannertitle">Your Source for Serious Succulent Specialties</h1>
+        <div class="discover">
+            <div class="leftside">
+                <div class="writing">
+                    <h4 class="distext onlytext">Discover succ-<br>ulent varieties one pot or rack at a time!</h4>
+                    <div class="discovermore">
+                        <a class="distext" href="#">Discover</a>
+                        <img class="arrow" src="images2/assets/arrow-light.png" alt="discover arrow">
+                    </div>
+                </div>
+                <div class="blockphoto">
+                    <img class="blockaloe" src="images2/assets/succulents-1.jpg" alt="succulents1"
+                        onmouseover="changeimage()" onmouseout="changeback()">
+                </div>
+            </div>
+            <div class="rightside">
+                <img class="rightsideimg" src="images2/assets/aloe-m.jpg" alt="aloem">
+                <div class="explorealoe">
+                    <a class="soothing" href="#">Soothing aloe</a>
+                    <img class="arrow" src="images2/assets/arrow-light.png" alt="arrow">
+                </div>
+            </div>
+
+        </div>
+        <div class="planttypes">
+            <div class="type">
+                <img class="circleimg" src="images2/assets/aeonium-s.jpg" alt="aeonium">
+                <p>Aeonium</p>
+            </div>
+            <div class="type">
+                <img class="circleimg" src="images2/assets/aloe-s.jpg" alt="aloe">
+                <p>Aloe</p>
+            </div>
+            <div class="type">
+                <img class="circleimg" src="images2/assets/cactus-s.jpg" alt="cactus">
+                <p>Cactus</p>
+            </div>
+            <div class="type">
+                <img class="circleimg" src="images2/assets/echeveria-s.jpg" alt="echeveria">
+                <p>Echeveria</p>
+            </div>
+            <div class="type">
+                <img class="circleimg" src="images2/assets/sedum-s.jpg" alt="sedum">
+                <p>Sedum</p>
+            </div>
+            <div class="type">
+                <img class="circleimg" src="images2/assets/sempervivum-s.jpg" alt="sempervivum">
+                <p>Sempervivum</p>
+            </div>
+        </div>
+        <div class="alertbox">
+            <img src="images2/assets/alert-dark.png" alt="alert icon">
+            <p class="terms">This site makes use of third-party cookies, by clicking "I accpet" you agree to the terms
+                outlined in our
+                <a class="cookies" href="#">cookie policy</a>
+            </p>
+            <button class="accept" onclick="accepted()">I Accept</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

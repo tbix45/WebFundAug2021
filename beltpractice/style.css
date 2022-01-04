@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #f4f3f4;
+}
+.wrapper{
+    width: 900px;
+    margin: auto;
+}
+.navwrapper{
+    height: 80px;
+    background-color: black;
+    border-top: 10px solid rebeccapurple;
+}
+.navbar{
+    margin: auto;
+    width: 900px;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+}
+#purple{
+    color: purple;
+}
+.icons{
+    height: 80px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#dropdown{
+    height: 30px;
+}
+.cartsection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cartsection img{
+    transform: scaleX(-1);
+}
+.highlights{
+    margin: 10px 0px;
+}
+.scroll{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.leftarrow{
+    transform: scaleX(-1);
+}
+.imgsz{
+    height: 50px;
+
+    margin: 15px;
+}
+.mainjpg{
+    width: 800px;
+}
+.sliderboxes{
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mainjpg{
+    width: 60%;
+}
+.box{
+    height: 10px;
+    width: 60px;
+    margin: 15px;
+}
+.graybox{
+    background-color: gray;
+}
+.purplebox{
+    background-color: purple;
+}
+.games{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.game{
+    width: 275px;
+    background-color: white;
+}
+.game img{
+    width: 100%;
+}
+.platforms{
+    height: 50px;
+}
+.platforms img{
+    width: 35px;
+    margin-bottom: 25px;
+    margin-top: 5px;
+}
+.info{
+    padding: 10px;
+}
+.prices{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.oldprice{
+    color: gray;
+    text-decoration: line-through;
+    text-align: center;
+}
+.newprice{
+    font-size: 15pt;
+    text-align: center;
+}
+.btn{
+    width: 70px;
+    height: 60px;
+    color: white;
+}
+.discpercent{
+    background-color: rebeccapurple;
+}
+.buy{
+    background-color: green;
+}

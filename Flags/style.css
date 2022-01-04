@@ -1,0 +1,18 @@
+.wrapper{
+    height: 240px;
+    width: 50%;
+    background-position: center;
+    border: 1px solid black;
+}
+.white{
+    background-color: white;
+    height: 33.3333333%;
+}
+.blue{
+    background-color: blue;
+    height: 33.33333333%;
+}
+.red{
+    background-color: red;
+    height: 33.333333%;
+}

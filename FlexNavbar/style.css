@@ -1,0 +1,53 @@
+/* .nav, ul{
+    display: flex;
+    background-color: grey;
+    list-style-type: none;
+}
+.nav-title{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+nav-links{
+    display: flex;
+    justify-content: flex-end;
+} */
+*{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+.nav{
+    background-color: gray;
+    /* color: white; */
+    display: flex;
+    justify-content: space-between;
+    padding: 1px 25px;
+
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    opacity: 0.75;
+    
+}
+.active{
+    opacity: 0.75;
+}
+.active:hover {
+    opacity: 1;
+}
+a{
+    /* color: white; */
+    text-decoration: none;
+}
+.btn{
+    background-color: #48a3b8;
+    box-shadow: 2px 2px black;
+    width: 100px;
+    height: 30px;
+
+
+}
+/* initial commit */

@@ -1,0 +1,38 @@
+.search{
+    display: block;
+    border-radius: 30px;
+    border-color: #25a3a5;
+    background-color: #f5f5f5;
+    color: #25a3a5;
+    margin: 50px 50px 10px 50px;
+    padding: 5px 40px;
+
+
+}
+.plus{
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #01d1b2;
+    color: white;
+    border: #01d1b2;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    
+}
+    
+
+
+.account{
+    color: white;
+    display: block;
+    background-color: #2b78e4;
+    box-shadow: 2px 2px 2px black;
+    padding: 5px 20px;
+    margin-left: 50px;
+    width: 150px;
+
+;
+}

@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+.top-banner{
+    background-color: #48a3b8;
+    height: 75px;
+    border-radius: inherit;
+}
+.profile-photo{
+    height: 75px;
+    position: relative;
+    top: 37px;
+    left: 20px;
+}
+img.map-marker{
+    height: 20px;
+    display: flex;
+}
+.location{
+    display: flex;
+}
+.card-content{
+    position: relative;
+    left: 20px;
+    top: 30px;
+}
+.wrapper{
+    position: absolute;
+    left: 500px;
+    top: 50px;
+    width: 500px;
+    /* margin: 40px 400px; */
+    height: 275px;
+    border: 3px solid rgb(172, 168, 168);
+    border-radius: 2px;
+}
+h1{
+    margin: 5px 0px;
+}
+.locations{
+    display: flex;
+}
+.edit-profile{
+    position: relative;
+    display: flex;
+    top: 25px;
+    left: 20px;
+}
+.settings{
+    height: 25px;
+    margin-right: 5px;
+}
+img + p{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.titles{
+    margin-bottom: 15px;
+}

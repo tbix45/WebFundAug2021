@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="navwrapper">
+
+        <div class="navbar">
+            <h1>Gaming<span id="purple">Dojo</span></h1>
+            <div class="icons">
+                <select name="dropdown" id="dropdown">
+                    <option value="Euro">Euro &euro;</option>
+                    <option value="USD">USD $</option>
+
+                </select>
+                <div class="cartsection">
+
+                    <img class="imgsz" src="images/cart.jpeg" alt="">
+                    <h4 class="cart">0</h4>
+                </div>
+                <img class="imgsz" src="images/magnify.jpeg" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="wrapper">
+        <h4 class="highlights">Highlights</h4>
+        <div class="scroll">
+            <img class="leftarrow imgsz" src="images/right arrow.png" alt="" onclick="shiftleft()">
+            <img class="mainjpg" src="images/pexels-chait-goli-3722918.jpeg" alt="">
+            <img class="imgsz" src="images/right arrow.png" alt="" onclick="shiftright()">
+        </div>
+        <div class="sliderboxes">
+            <div class="box graybox"></div>
+            <div id="sp" class="box purplebox"></div>
+            <div id="pn" class="box graybox"></div>
+            <div class="box graybox"></div>
+        </div>
+        <div class="games">
+            <div class="game">
+                <img src="images/pexels-chait-goli-3722918.jpeg" alt="">
+                <div class="info">
+
+                    <h3>Cafe Neko: Gold Edition</h3>
+                    <div class="platforms">
+                        <img src="images/cart.jpeg" alt="">
+                        <img src="images/magnify.jpeg" alt="">
+                    </div>
+                    <div class="prices">
+                        <button class="btn discpercent">-20%</button>
+                        <div class="discount">
+                            <p class="oldprice">&euro; 14.99</p>
+                            <p class="newprice">&euro; 10.49</p>
+                        </div>
+                        <button class="btn buy" onclick="addtocart()">Buy</button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="game">
+                <img src="images/pexels-sam-6347788.jpeg" alt="">
+                <div class="info">
+
+                    <h3>Cafe Neko 2nd Edition</h3>
+                    <div class="platforms">
+                        <img src="images/cart.jpeg" alt="">
+                        <img src="images/magnify.jpeg" alt="">
+                    </div>
+                    <div class="prices">
+                        <button class="btn discpercent">-20%</button>
+                        <div class="discount">
+                            <p class="oldprice">&euro; 14.99</p>
+                            <p class="newprice">&euro; 10.49</p>
+                        </div>
+                        <button class="btn buy" onclick="addtocart()">Buy</button>
+                    </div>
+                </div>
+            </div>
+            <div class=" game">
+                <img src="images/pexels-chait-goli-3722918.jpeg" alt="">
+                <div class="info">
+
+                    <h3>Cafe Neko 3rd Edition</h3>
+                    <div class="platforms">
+                        <img src="images/cart.jpeg" alt="">
+                        <img src="images/magnify.jpeg" alt="">
+                        <img onclick="alert('supported by linux')" src="images/magnify.jpeg" alt="">
+                    </div>
+                    <div class="prices">
+                        <button class="btn discpercent">-20%</button>
+                        <div class="discount">
+                            <p class="newprice">&euro; 10.49</p>
+                        </div>
+                        <button class="btn buy" onclick="addtocart()">Buy</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src=" script.js"></script>
+</body>
+
+</html>
