@@ -114,4 +114,39 @@
 // var result = arrayNegativeZeros([1, -2, 4, -2])
 // console.log(result)
 
-//11. 
+//11. given an array print the max, min, and average
+// function minMaxAverageArray(arr) {
+//     var max = arr[0]
+//     var min = arr[0]
+//     var average = 0;
+//     for (let i = 0; i < arr.length; i++) {
+//         average += arr[i];
+//         if (arr[i] > max) {
+//             max = arr[i]
+//         } if (arr[i] < min) {
+//             min = arr[i]
+//         }
+//     }
+//     console.log(max)
+//     console.log(min)
+//     console.log(average / arr.length)
+// }
+// minMaxAverageArray([1, 5, 2, 10])
+
+//12. given an array move all values left by one, drop the first, add 0 at end. 
+// function shiftArrayLeft(arr) {
+
+// }
+
+
+// 13. replace negative numbers with string Dojo
+// function stringForNegative(arr) {
+//     for (let i = 0; i < arr.length; i++) {
+//         if (arr[i] < 0) {
+//             arr[i] = 'Dojo'
+//         }
+//     }
+//     return arr
+// }
+// var result = stringForNegative([1, -1, -2, 3])
+// console.log(result)
